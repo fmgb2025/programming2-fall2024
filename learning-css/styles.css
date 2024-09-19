@@ -1,0 +1,19 @@
+body {
+    color: orangered;
+    background-color:cadetblue;
+}
+
+h2 {
+    color:aqua;
+    font-family: "Gill Sans";
+    font-size:xx-large;
+    font-weight: 900;
+    border: ridge;
+    border-color: darkred;
+    border-block-end-color: green;
+    border-right-color: #aa6ac6;
+    border-left-color: #c5f47b;
+   
+}
+
+
