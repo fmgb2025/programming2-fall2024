@@ -17,3 +17,27 @@ h2 {
 }
 
 
+.alert {
+    color: red;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+#para-2 {
+    color:green;
+    border: dashed;
+    border-color:red;
+    border-right-color: pink;
+    border-left-color: pink;
+   
+    
+}
+
+#para-fin {
+    font-family:"Lucida Sans";
+    font-size:70px;
+}
+
+.fin {
+    color:coral
+}
