@@ -1,6 +1,9 @@
-.style{
+.style, .style-2{
     background-color:salmon;
-    font-family:"Verdana", "DejaVu Sans", "sans-serif";
+}
+
+.style{
+    font-family:Verdana, "DejaVu sans", sans-serif;
     
 }
 
@@ -9,7 +12,6 @@
     font-size: 36px;
 }
 .style-2{
-    background-color:salmon;
     font-family:"Verdana";
     font-size: 24px;
     

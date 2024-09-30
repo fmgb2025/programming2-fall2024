@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Selectors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button id="black">Click Me!</button>
+    <button id="yellow">No, Click Me!</button>
+    <p>  
+      <label for="name">What's your name:</label>
+      <input type="text" id="name" name="name">
+      <button type="submit" onclick="hell()">Submit</button>
+      <script>
+      function hell(){
+        alert("Hello, " + document.getElementById('name').value)
+      }
+      </script>
+    </p>
+  </body>
+</html>
