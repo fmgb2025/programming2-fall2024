@@ -1,0 +1,16 @@
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+#submit{
+  background-color:pink;
+  padding: 25px;
+  font-size:large;
+  margin:20px;
+  border-radius: 25px;
+  
+}
