@@ -2,13 +2,24 @@ body {
     background-color:#ffa1a1;
     font-family: Pacifico;
     font-size: 24px;
+    font-weight: lighter;
     color: #0030fd;
+    
     
 }
 
 .border {
-    font-family: "Gill Sans";
-    border: 4px dashed #ffcbef;
+    border: 6px dashed #ffcbef;
+    margin: 16px;
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+
+}
+
+.border-2{
+    border: 2px dashed white;
     margin: 16px;
     padding: 8px;
     color: white;
@@ -18,15 +29,35 @@ body {
 
 .img{
     width:500px;
+    height: 350px;
     border-radius: 25px;
+    display:block;
+    margin: auto;
 }
 
 
-#content{
+.content{
     font-family: "Gill Sans";
     margin: 16px;
     padding: 8px;
     color: white;
     font-size: 20px;
+    
+    
+}
+
+.center{
+    text-align: center;
+}
+
+#one{
     text-align:center;
+    color:#0030fd;
+    font-weight: lighter;
+    border: 2px solid black;
+    border-radius: 10000000px;
+    font-size: 20px;
+    margin: auto;
+    padding: 8px 2px;
+    border-color: #ffcbef;
 }
