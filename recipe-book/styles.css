@@ -37,7 +37,7 @@ body {
 
 
 .content{
-    font-family: "Gill Sans";
+    font-family: gidugu, "Gill sans", Sunflower;
     margin: 16px;
     padding: 8px;
     color: white;
@@ -60,4 +60,5 @@ body {
     margin: auto;
     padding: 8px 2px;
     border-color: #ffcbef;
+    font-family: Sunflower;
 }
