@@ -4,12 +4,15 @@ you'll learn about it later. */
 
 body {
     margin: 0;
-    background: #eee;
+    background: #dedede;
     font-family: Besley, serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-    background: white;
+    background: #efe3e3;
     border-bottom: 1px solid #ddd;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -20,7 +23,7 @@ body {
 }
 
 .profile-image {
-    background: rebeccapurple;
+    background: #8f0c25;
     box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 50%;
     width: 48px;
@@ -28,7 +31,7 @@ body {
 }
 
 .logo {
-    color: rebeccapurple;
+    color: #8f0c25;
     font-size: 32px;
     font-weight: 900;
     font-style: italic;
@@ -37,7 +40,7 @@ body {
 button {
     border: none;
     border-radius: 8px;
-    background: rebeccapurple;
+    background: #de1537;
     color: white;
     padding: 8px 24px;
 }
@@ -45,7 +48,7 @@ button {
 a {
     /* this removes the line under our links */
     text-decoration: none;
-    color: rebeccapurple;
+    color: #de1537;
 }
 
 ul {
@@ -75,11 +78,22 @@ ul {
     flex-direction: column;
 }
 
-#column1 {
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-#column2 {
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-#column3 {
+.image {
+    width: 200px;
+}
+
+.label {
 }
