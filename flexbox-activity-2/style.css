@@ -132,19 +132,19 @@ ul {
 }
 
 .profile-pic {
-    width: 80%;
+    max-width: 60%;
     border-radius: 20px;
     border: 2px solid #de1537;
+    flex-basis: 100%;
 }
 
 .more-info {
     background-color: #efe3e3;
-    height: 2005px;
+    height: 200px;
     width: 100%;
     border-radius: 15px;
-    padding: 5px;
-    padding-top: 0;
-    margin-top: 0;
+    flex-shrink: 0;
+
 }
 
 .logo-size {
