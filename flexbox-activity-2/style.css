@@ -12,8 +12,8 @@ body {
 }
 
 .header {
-    background: #efe3e3;
-    border-bottom: 1px solid #ddd;
+    background: #9bc9e2;
+    border-bottom: 1px solid #d5d8e7;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: row;
@@ -75,6 +75,7 @@ ul {
     flex: 2 1 400px;
     gap: 20px;
     overflow-y: scroll;
+    height: calc(100vh-87px);
 }
 
 .description {
@@ -83,7 +84,7 @@ ul {
     flex: 1 1 400px;
     align-items: center;
     padding: 20px;
-    border: 2px solid #de1537;
+    border: 2px solid #1598de;
     margin: 10px;
     border-radius: 10px;
     overflow-y: scroll;
@@ -132,10 +133,10 @@ ul {
 }
 
 .profile-pic {
-    max-width: 60%;
+    max-height: 60%;
     border-radius: 20px;
     border: 2px solid #de1537;
-    flex-basis: 100%;
+    /*flex-basis: 100%;*/
 }
 
 .more-info {
@@ -144,7 +145,6 @@ ul {
     width: 100%;
     border-radius: 15px;
     flex-shrink: 0;
-
 }
 
 .logo-size {
