@@ -6,6 +6,7 @@ function generate() {
     let message = document.getElementById("name"); // makes the message populate with the correct named based on m/c/age
 
     //used unique celebrity names based on age, then month, then color
+    //chatgpt helped to populate the message with unique celebrity names
 
     if (age >= 50) {
         // checks if 50 and up
