@@ -19,6 +19,8 @@ items.pop();
 console.log(items);
 items.splice(1, 0, "pen");
 console.log(items);
+items.splice(2, 1);
+console.log(items);
 
 let numbers = [7, 8, 9];
 console.log(numbers);
