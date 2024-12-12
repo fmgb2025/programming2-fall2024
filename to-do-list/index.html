@@ -8,10 +8,14 @@
     </head>
     <body onload="showTasks()">
         <h1>My To Do List</h1>
-        <button onclick="addTasks()">Add a Task</button>
-        <button onclick="rmTasks()">Remove a Task</button>
-        <button onclick="clearTasks()">Clear Tasks</button>
-        <button onclick="prioritizeTasks()">Prioritize a Task</button>
-        <ul id="task-list"></ul>
+        <div id="buttons">
+            <button onclick="addTasks()">Add a Task</button>
+            <button onclick="rmTasks()">Remove a Task</button>
+            <button onclick="clearTasks()">Clear Tasks</button>
+            <button onclick="prioritizeTasks()">Prioritize a Task</button>
+        </div>
+        <div class="container">
+            <ul id="task-list"></ul>
+        </div>
     </body>
 </html>

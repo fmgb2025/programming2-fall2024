@@ -41,11 +41,10 @@ function clearTasks() {
 
 function prioritizeTasks() {
     let task = prompt("Enter task to prioritize: ");
-    task = task.toLowerCase();
     let taskFound = false;
-
     let taskList = document.getElementById("task-list");
     let listItems = taskList.getElementsByTagName("li");
+    task = task.toLowerCase();
 
     for (let i = 0; i < tasks.length; i++) {
         if (tasks[i].toLowerCase() === task) {
