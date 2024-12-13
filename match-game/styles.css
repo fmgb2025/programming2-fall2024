@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+.header {
+    background: #9bc9e2;
+    border-bottom: 5px solid #dd9292;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #5e74e4;
+    height: 140px;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background: #fae988;
+    height: 100vh;
+    font-family: "Sour Gummy";
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(100vh - 150px);
+    overflow-y: scroll;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ddbbcd;
+    background: #ddbbcd;
+    gap: 2px;
+    margin: 2px;
+    border-radius: 10px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 80%;
+    width: 200px;
+    min-height: 150px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18%;
+    /* flex-shrink: 1; */
+}
+
+/* .image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 2px;
+  border: 4px solid #ddbbcd;
+} */
+
+p {
+    text-align: center;
+}
+
+#button {
+    background: #dd9292;
+    border-radius: 5px;
+    width: 60px;
+    height: 35px;
+    font-size: large;
+    font-family: "Sour Gummy";
+}
+
+.select:hover {
+    background: #dd9292;
+    border-radius: 10px;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2px;
+    height: 100%;
+    gap: 10px;
+}
+
+#tally {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: #5e74e4;
+    color: black;
+    padding: 4px;
+}
