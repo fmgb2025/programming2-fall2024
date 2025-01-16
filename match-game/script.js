@@ -56,28 +56,39 @@ document.addEventListener("DOMContentLoaded", () => {
             cards[i].innerText = cardPairs[i];
             cards[i].onclick = isClicked;
         }
-    }
 
-    function isClicked(e) {
-        let cardClicked = e.srcElement;
-        console.log(cardClicked);
-        cardClicked.classList.add("clicked");
-        let numClicked = document.getElementsByClassName("clicked").length;
+        function isClicked(e) {
+            let cardClicked = e.srcElement;
+            console.log(cardClicked);
+            cardClicked.classList.add("clicked");
+            let clicked = document.getElementsByClassName("clicked");
 
-        if (numClicked == 2) {
-            //look for a match
+            if (clicked.length == 2) {
+                //look for a match
+                if (isMatched(clicked[0].innerText, clicked[1].innerText)) {
+                    clicked[0].style.backgroundColor = "#D4F3B7";
+                    clicked[1].style.backgroundColor = "#D4F3B7";
+                    clicked[0].disabled = true;
+                    clicked[1].disabled = true;
+                    clicked[0].classList.remove("clicked");
+                    clicked[0].classList.remove("clicked");
+                } else {
+                    clicked[0].classList.remove("clicked");
+                    clicked[0].classList.remove("clicked");
+                }
+            }
         }
-    }
 
-    function isMatched(item1, item2) {
-        for (let i = 0; i < Object.keys(pairs).length; i++) {
-            if (item1 == pairs[i].word && item2 == pairs[i].match) {
-                return true;
+        function isMatched(item1, item2) {
+            for (let i = 0; i < pairs.length; i++) {
+                // Adjusted to check the pairs array
+                if (
+                    (item1 === pairs[i].word && item2 === pairs[i].match) ||
+                    (item1 === pairs[i].match && item2 === pairs[i].word)
+                ) {
+                    return true;
+                }
             }
-            if (item1 == pairs[i].match && item2 == pairs[i].word) {
-                return true;
-            }
-
             return false;
         }
     }

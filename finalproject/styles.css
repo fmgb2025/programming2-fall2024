@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0;
+    background: #0056a7;
+    font-family: "DM Sans", "Playfair Display", serif;
+    overflow: scroll;
+}
+
+.header {
+    background: #00488b;
+    border-bottom: 1px solid #0053a0;
+    box-shadow: 0 0 20px #160b50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: Playfair Display;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+}
+
+.left,
+.right {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    height: calc(100vh - 87px);
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 87px);
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    align-content: center;
+    gap: 10px;
+    font-weight: 800;
+}
+
+.gallery {
+    display: flex;
+    flex: 2 1 400px;
+    gap: 20px;
+    height: calc(100vh-87px);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 500px;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    gap: 10px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.profile-pic {
+    max-width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+.more-info {
+    background-color: #ffffff;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.logo-size {
+    display: flex;
+    flex-basis: 100px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+#bold {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    color: white;
+    font-family: "Playfair Display";
+    font-weight: 500px;
+}
+
+.blurb {
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    font-family: "Playfair Display";
+    font-weight: 500px;
+}
+
+.text:hover {
+    color: #92cbdd;
+    border-radius: 1px;
+}
+
+.links {
+    padding-right: 5px;
+}
+
+#scroll {
+    overflow-y: scroll;
+}
+
+.description-text {
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: 400;
+    padding-left: 30px;
+    align-content: flex-start;
+}
+
+#left{
+    justify-content: left;
+}
+
+#rats {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.flex-text,
+.flex-pics {
+    flex: 2;
+}
+
+.spacer {
+    flex: 1;
+    flex-basis:auto;
+}
+
+.moreflex{
+    flex: 3;
+    margin: 0 60px 0 60px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "Playfair Display";
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    width: 500px;
+    background-color: #ffffff;
+    border: 2px solid #87ceeb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #0000001a;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+label {
+    font-size: 30px;
+    margin-bottom: 5px;
+    display: block;
+    color: #0056a7;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #87ceeb;
+    border-radius: 5px;
+    background-color: #f0f8ff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #003f7d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.5s;
+    font-family: "DM Sans";
+}
+
+button:hover {
+    background-color: white;
+    color: #003f7d;
+}
+
+.rowpls {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+#bot {
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+}
+
+#fixpix{
+
+    height: auto;
+    max-width: 40%;
+}
